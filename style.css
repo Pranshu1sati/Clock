@@ -150,12 +150,12 @@ body{
 
 .clock .minute {
 	width: 1px;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	animation: time 360s infinite linear;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+margin: 0 auto;
+animation: time 360s infinite linear;
 }
 .clock .minute:before {
 	position: absolute;
@@ -166,7 +166,7 @@ body{
 	top: 50px;
 }
 .clock .second {
-	width: 2px;
+	width: 3px;
 	height: 100%;
 	position: absolute;
 	left: 0;
